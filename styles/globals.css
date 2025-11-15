@@ -1,1 +1,16 @@
-@tailwind base;@tailwind components;@tailwind utilities;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+:root {
+  --saffron-500: #ff7a00;
+  --saffron-700: #b84f00;
+}
+
+body { @apply bg-white text-gray-800; }
+
+/* Simple container */
+.container {
+  @apply max-w-7xl mx-auto px-6;
+}
